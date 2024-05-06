@@ -1,0 +1,76 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  .controls {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  label {
+    margin-right: 10px;
+  }
+  
+  select, button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  /* Updated styling for dropdowns */
+  select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-right: 10px; /* Add some margin to the right */
+    cursor: pointer;
+  }
+  
+  /* Updated styling for buttons */
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px; /* Add some margin between buttons */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  .chart{
+    min-width: 40%;
+    width: auto;
+    padding: 24px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    gap:24px
+  }
+  .charts{
+    width: 100%;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 32px;
+  }
+  .charts.hidden{
+    display: none;
+}
